@@ -1,0 +1,94 @@
+Config:
+  ActionBar: "&cHp: %arthaniacore_stats_health%/%arthaniacore_stats_maxhealth%❤  &8▕  &aDef: &a%arthaniacore_stats_defence%❈  &8▕  &bMana: %arthaniacore_stats_mana%/%arthaniacore_stats_maxmana%❀"
+  Tab:
+    Header:
+      - ""
+      - ""
+      - ""
+    Footer:
+      - ""
+      - "&e&lStatistiques :"
+      - "&7Vie &b➠ &c%arthaniacore_stats_health%/%arthaniacore_stats_maxhealth%❤"
+      - "&7Vitalité &b➠ &4%arthaniacore_stats_vitality%♨"
+      - "&7Defence &b➠ &a%arthaniacore_stats_defence%❈"
+      - "&7Mana &b➠ &b%arthaniacore_stats_mana%/%arthaniacore_stats_maxmana%❀"
+      - "&7Vitesse &b➠ &f%arthaniacore_stats_speed%✦"
+      - "&7Farming Fortune &b➠ &6%arthaniacore_stats_farmingfortune%☘"
+      - "&7Mining Speed &b➠ &6%arthaniacore_stats_miningspeed%⸕"
+      - "&7Damage &b➠ &c%arthaniacore_stats_damage%❈"
+    Player:
+      Prefix: ""
+      Suffix: ""
+  Scoreboard:
+    Title: '&d&lArthaNia &e&l- &a&lSurvie'
+    Lines:
+      - "&a"
+      - "&e&lStatistiques :"
+      - "&8▪ &7Vie &b➠ &c%arthaniacore_stats_health%/%arthaniacore_stats_maxhealth%❤"
+      - "&8▪ &7Vitalité &b➠ &4%arthaniacore_stats_vitality%♨"
+      - "&8▪ &7Defence &b➠ &a%arthaniacore_stats_defence%❈"
+      - "&8▪ &7Mana &b➠ &b%arthaniacore_stats_mana%/%arthaniacore_stats_maxmana%❀"
+      - "&8▪ &7Vitesse &b➠ &f%arthaniacore_stats_speed%✦"
+      - "&8▪ &7Farming Fortune &b➠ &6%arthaniacore_stats_farmingfortune%☘"
+      - "&8▪ &7Mining Speed &b➠ &6%arthaniacore_stats_miningspeed%⸕"
+      - "&8▪ &7Damage &b➠ &c%arthaniacore_stats_damage%❈"
+
+  CustomItems:
+    Pumpkin-Dicer:
+      Tier-1:
+        Name: "&6Trancheuse à Citrouille &8(&e✪&7✪✪&8)"
+        Drop:
+          1:
+            Chance: 0.01333
+            ActionBar: "&6Trancheuse &8(&e✪&7✪✪&8) &8▕ &e&lRare &8▕ &a+2 Citrouilles"
+            Amount: 2
+          2:
+            Chance: 0.005
+            ActionBar: "&6Trancheuse &8(&e✪&7✪✪&8) &8▕ &d&lEpique &8▕ &a+4 Citrouilles"
+            Amount: 4
+          3:
+            Chance: 0.002857
+            ActionBar: "&6Trancheuse &8(&e✪&7✪✪&8) &8▕ &6&lLégendaire &8▕ &a+8 Citrouilles"
+            Amount: 8
+          4:
+            Chance: 0.00125
+            ActionBar: "&6Trancheuse &8(&e✪&7✪✪&8) &8▕ &b&lDivin &8▕ &a+16 Citrouilles"
+            Amount: 16
+      Tier-2:
+        Name: "&6Trancheuse à Citrouille &8(&e✪✪&7✪&8)"
+        Drop:
+          1:
+            Chance: 0.01333
+            ActionBar: "&6Trancheuse &8(&e✪✪&7✪&8) &8▕ &e&lRare &8▕ &a+4 Citrouilles"
+            Amount: 4
+          2:
+            Chance: 0.005
+            ActionBar: "&6Trancheuse &8(&e✪✪&7✪&8) &8▕ &d&lEpique &8▕ &a+8 Citrouilles"
+            Amount: 8
+          3:
+            Chance: 0.002857
+            ActionBar: "&6Trancheuse &8(&e✪✪&7✪&8) &8▕ &6&lLégendaire &8▕ &a+16 Citrouilles"
+            Amount: 16
+          4:
+            Chance: 0.00125
+            ActionBar: "&6Trancheuse &8(&e✪✪&7✪&8) &8▕ &b&lDivin &8▕ &a+32 Citrouilles"
+            Amount: 32
+      Tier-3:
+        Name: "&6Trancheuse à Citrouille &8(&e✪✪✪&8)"
+        Drop:
+          1:
+            Chance: 0.01333
+            ActionBar: "&6Trancheuse &8(&e✪✪✪&8) &8▕ &e&lRare &8▕ &a+8 Citrouilles"
+            Amount: 8
+          2:
+            Chance: 0.005
+            ActionBar: "&6Trancheuse &8(&e✪✪✪&8) &8▕ &d&lEpique &8▕ &a+16 Citrouilles"
+            Amount: 16
+          3:
+            Chance: 0.002857
+            ActionBar: "&6Trancheuse &8(&e✪✪✪&8) &8▕ &6&lLégendaire &8▕ &a+32 Citrouilles"
+            Amount: 32
+          4:
+            Chance: 0.00125
+            ActionBar: "&6Trancheuse &8(&e✪✪✪&8) &8▕ &b&lDivin &8▕ &a+64 Citrouilles"
+            Amount: 64
