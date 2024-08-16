@@ -1,0 +1,13 @@
+name: HypixelSB
+version: 1.0.0.0-BETA
+author: Halbrand__
+api-version: 1.21
+main: fr.halbrand.skyblock.Main
+
+commands:
+  menu:
+    description: Main Menu Command
+  jobs:
+    description: Jobs Command
+  debug:
+    description: Debug Command
